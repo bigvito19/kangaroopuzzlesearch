@@ -12,26 +12,6 @@ This program offers a powerful solution for tackling the Elliptic Curve Discrete
 
 The algorithm employs two herds of kangaroos, a tame herd, and a wild herd. When a kangaroo from each herd collides, the key can be solved. The distinguished points method with a hashtable is used to detect collisions efficiently. The algorithm iteratively updates the positions of the kangaroos until a collision is detected, leading to the solution of the ECDLP.
 
-### Input File Structure
-
-The input file follows a specific structure:
-
-```
-Start range
-End range
-Key #1
-Key #2
-...
-```
-
-For example:
-
-```
-0
-FFFFFFFFFFFFFF
-02E9F43F810784FF1E91D8BC7C4FF06BFEE935DA71D7350734C3472FE305FEF82A
-```
-
 ### Probability of Success
 
 The probability of success after a certain number of group operations is illustrated, considering the range size (N). The plot provides insights into the likelihood of solving the ECDLP within a given range.
